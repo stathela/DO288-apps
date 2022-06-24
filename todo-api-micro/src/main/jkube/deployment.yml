@@ -1,0 +1,7 @@
+pec:
+        template:
+                spec:
+                        containers:
+                                - envFrom:
+                                        - configMapRef:
+                                                name: config-todoapp
